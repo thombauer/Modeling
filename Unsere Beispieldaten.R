@@ -14,3 +14,6 @@ print(data)
 
 g <- qplot(x = scale(age), scale(interest), color = success, data = data)
 print(g)
+
+g2 <- qplot(x = scale(success), scale(interest), data = data)
+print(g2)
